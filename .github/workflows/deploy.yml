@@ -15,6 +15,6 @@ jobs:
         uses: nexterias/actions-vercel@v2.0.0
         with:
           token: ${{ secrets.VERCEL_TOKEN }}
-          org-id: ${{ secrets.VERCEL_ORG_ID }}
+          org-id: ${{ secrets.ercel_org_id }}
           project-id: ${{ secrets.VERCEL_PROJECT_ID }}
           production: true
