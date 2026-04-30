@@ -16,6 +16,27 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "FitCalc — Free Fitness Calculators",
   description: "Free fitness calculators: BMI, TDEE, Macros, Body Fat, 1 Rep Max, Heart Rate Zones, Ideal Body Weight, Water Intake.",
+  metadataBase: new URL("https://fitness-calculators.vercel.app"),
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "FitCalc — Free Fitness Calculators",
+    description: "Free fitness calculators: BMI, TDEE, Macros, Body Fat, 1 Rep Max, Heart Rate Zones, Ideal Body Weight, Water Intake.",
+    url: "https://fitness-calculators.vercel.app",
+    siteName: "FitCalc",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "FitCalc — Free Fitness Calculators",
+    description: "Free fitness calculators: BMI, TDEE, Macros, Body Fat, 1 Rep Max, Heart Rate Zones, Ideal Body Weight, Water Intake.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
