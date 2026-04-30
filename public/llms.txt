@@ -1,0 +1,31 @@
+# FitCalc
+
+> Free, instant fitness calculators for health and training — no sign-up required.
+
+FitCalc is a single-page web app at https://fitness-calculators.vercel.app that provides eight science-based fitness calculators. All calculations happen client-side in the browser. Results are for informational purposes only and do not constitute medical advice.
+
+## Calculators
+
+- **BMI Calculator** — Computes Body Mass Index from height and weight. Supports metric (kg, cm) and imperial (lbs, ft/in). Classifies result as Underweight, Normal weight, Overweight, or Obese per standard WHO ranges.
+
+- **TDEE Calculator** — Total Daily Energy Expenditure using the Mifflin-St Jeor formula. Inputs: age, gender, height, weight, and activity level. Outputs BMR and TDEE, plus calorie targets for weight loss, maintenance, and weight gain.
+
+- **Macro Calculator** — Daily protein, carbohydrate, and fat targets based on a calorie intake and goal (cut / maintain / bulk). Supports four diet styles: Balanced (30/40/30), Low Carb (40/20/40), High Protein (45/35/20), and Keto (25/5/70).
+
+- **Body Fat % Calculator** — Estimates body fat percentage and lean mass percentage using the US Navy circumference method. Inputs: gender, height, neck, waist, and (for females) hip measurements in centimeters. Classifies result into Essential Fat, Athletic, Fitness, Average, or Obese.
+
+- **One Rep Max (1RM) Calculator** — Estimates the maximum weight a person can lift for a single repetition using the Epley formula. Outputs a full percentage table (60%–100%) with corresponding weights and rep ranges.
+
+- **Heart Rate Zones Calculator** — Computes five training heart rate zones (Warm Up, Fat Burn, Aerobic, Anaerobic, Maximum) based on age using the 220-minus-age formula. Optionally uses the more accurate Karvonen formula when resting heart rate is provided.
+
+- **Ideal Body Weight Calculator** — Calculates healthy body weight targets using four established medical formulas: Devine, Robinson, Miller, and Hamwi. Inputs: gender and height in centimeters.
+
+- **Water Intake Calculator** — Recommends daily hydration (in liters, fluid ounces, and 250 ml glasses) based on body weight, activity level, and climate.
+
+## Site details
+
+- URL: https://fitness-calculators.vercel.app
+- Technology: Next.js (App Router), React, Tailwind CSS, deployed on Vercel
+- Language: English
+- Audience: General public interested in fitness, health, nutrition, and training
+- Monetization: Google AdSense (publisher ID: ca-pub-2607428575036247)
